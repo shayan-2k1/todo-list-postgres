@@ -1,4 +1,7 @@
 export interface ITask {
   id: string,
-  text: string
+  heading: string
+  subheading: string
+  footer: string
+  image:string
 }
